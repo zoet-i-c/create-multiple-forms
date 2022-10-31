@@ -32,8 +32,51 @@
       <br />
       <br />
 
-      
+      <section>
+        <h2><u>REGISTERATION</u></h2>
+        <br>
+        <form action="" method="post">
+          <table>
+            <tr>
+                <td><label for="first_name">First Name:</label></td>
+                <td><input id="first_name" name="first_name" type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><label for="last_name">Last Name:</label></td>
+                <td><input id="last_name" name="last_name" type="text"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="3">Current Address:</td>
+                <td><label for="flat_num">Flat No./House No.</label></td>
+                <td><input id="flat_num" name="flat_num" type="number"></td>
+            </tr>
+            <tr>
+                <td><label for="locality">Locality</label></td>
+                <td><input id="locality" name="locality" type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input id="city" name="city" type="text"></td>
+            </tr>
+        <tr><td colspan="3"><b>Is Current address and Permanent address same?</b>
+        <input type="radio" name="radio" checked>Yes
+        <input type="radio" name="radio">No
+        </td></tr>
+          <tr>
+          <td><label for="email_add">Email:</label></td>
+          <td><input type="email" id="email_add" placeholder="abc@gmail.com"name="email_add"></td>
+          </tr>
+          <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input type="password" id="password" name="password"></td>
+          </tr>
+          </table>
+          <br>
+          <input type="button" value="Register">
+        </form>
+        </section>
     </main>
-    
   </body>
 </html>
